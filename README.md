@@ -38,7 +38,7 @@ sudo apt-get install git build-essential autoconf automake
 # Clone this repository
 git clone https://github.com/frachop/hubic-backup.git && cd hubic-backup/
 # Install dependencies 
-sudo apt-get install libboost-system-dev libcurl4-openssl-dev libboost-filesystem-dev libboost-regex-dev libboost-program-options-dev libssl-dev
+sudo apt-get install libboost-system-dev libcurl4-openssl-dev libboost-filesystem-dev libboost-regex-dev libboost-program-options-dev libssl-dev libjsoncpp-dev
 # Launch automake
 aclocal && automake && autoconf
 # Build sources
